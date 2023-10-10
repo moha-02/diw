@@ -21,6 +21,8 @@ p#titol {
 
   /* CSS AL DAVALL */
 
+  left: 150px;
+
 }
 
 h2 {
@@ -38,6 +40,8 @@ img#model {
   position: absolute;
 
   /* CSS AL DAVALL */
+  top: 30px;
+  left: 30px;
  
 }
 
@@ -46,7 +50,7 @@ img#scissors {
 
   /* CSS AL DAVALL */
   right: 30px;
-  bottom: 0px;
+  bottom: 20px;
 
 }
 
