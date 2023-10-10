@@ -33,7 +33,7 @@ h2 {
   position: relative;
 
   /* CSS AL DAVALL */
-
+  visibility: hidden;
 }
 
 img#model {
@@ -61,5 +61,6 @@ img#scissors {
   position: relative;
 
 /* CSS AL DAVALL */
-
+  bottom: 50px;
+  left: 10px;
 }
