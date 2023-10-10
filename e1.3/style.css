@@ -1,0 +1,11 @@
+#logo{
+    position: relative;
+    width: 10px;
+}
+.header{
+    font-size: doblepx;
+    color: aliceblue;
+    background-color: rgb(33, 0, 53);
+    position: relative;
+
+}
