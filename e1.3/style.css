@@ -1,11 +1,160 @@
-#logo{
-    position: relative;
-    width: 10px;
-}
-.header{
-    font-size: doblepx;
-    color: aliceblue;
-    background-color: rgb(33, 0, 53);
-    position: relative;
 
+*{
+    width: 1000px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 1000px;
+    height: 120px;
+    background-color: #4A235A;
+    position: relative;
+    border-bottom: 1px solid #4A235A; 
+}
+header img {
+    position: absolute;
+    width: 157px;   
+    height:120px;
+    border-bottom: 1px solid #4A235A;
+}
+header h1{
+    color: white;
+    font-size: 20px;
+}
+header p {
+    color: white;
+    font-size: x-small;
+    right: 540px;
+}
+#title {
+    position: absolute;
+    top: 10%;
+    left: 500px;
+}
+#subtit  {
+    position: absolute;
+    top: 45%;
+    left: 520px;
+}
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.menu ul li {
+    border-right: 1px solid white;
+    height: 50px;
+    width: 100px;
+    background-color: #BB8FCE;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu ul li a {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    flex: 1;
+}
+#pattern {
+    background-image: url('imatges/pattern.jpg'); 
+    width: 1000px;
+    height: 110px; 
+    background-repeat: repeat;
+    border: 1px dashed #000;
+}
+#frontal {
+    height: 300px;
+    overflow: hidden;
+    border-bottom: 1px dashed #000;
+}
+#frontal img{
+    height: 390px;
+}
+.notas {
+    background-color:#D0D3D4;
+    height: 250px;
+}
+.notas #tit h1 {
+    font-size: 15px;
+    font-weight:bold;
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 30px; 
+    margin-bottom: 15px;
+}
+table {
+    width: 45%;
+    height: 60%;
+    margin: auto;
+    border-collapse: collapse;
+    border: 1px solid gray;
+}
+table th {
+    font-size: 15px;
+    padding: 5px 0;
+    font-weight:bold;
+    background-color: #7D3C98; 
+    color: black;
+    border-bottom: 5px solid black;
+}
+table td, table th {
+    text-align: center; 
+}
+table tr:nth-child(even) {
+    background-color: #7B7D7D ; 
+}
+table tr:nth-child(odd) {
+    background-color: #ffffff; 
+}
+.imagenes {
+    width: 1000px;
+    height: 300px;
+    display: flex; 
+    border-top: 1px dashed #000;
+    border-bottom: 1px dashed #000;
+    
+}
+.imagenes img {
+    width: 100%;
+    height: calc(100% - 30px); 
+    object-fit: contain;
+    opacity: 0.5; 
+    flex: 1; 
+    display: flex;
+    flex-direction: column; 
+    border-right: 2px solid rgb(214, 211, 211);
+}
+.nombres {
+    width: 100%;
+    color:black;
+    text-align:center;
+    font-size :15px;
+    font-weight:bold; 
+ }
+footer{
+   background-color:#2C0044 ;
+   height :100px ;
+   position:relative ;
+}
+#pie1{
+   color:white ;
+   position:absolute ;
+   top :10px ;
+   left :0 ;
+   margin-left :10px ;
+}
+#pie2{
+   color:white ;
+   position:absolute ;
+   bottom :5px ;
+   right :0 ;
+   margin-right :-790px ; 
 }
