@@ -41,7 +41,3 @@ exports.Concatjs = concatJs;*/
 
 exports.kittens = parallel(series(compilaSCSS,minimizaCSS,concatCss),series(minimizaJS,concatJs));
 exports.watcher = watcher;
-/*
-exports.build = build;
-exports.default = series(clean, build);
-exports.minifyAll = parallel(minimizaCSS,minimizaJS);*/
