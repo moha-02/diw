@@ -1,3 +1,5 @@
+import "../sass/application.scss";
+
 var names = ['Tiger', 'Samuel', 'Leeloo',
              'Bella', 'Mo', 'Sly',
              'Beezy', 'Maple', 'Rodney',
