@@ -6,6 +6,7 @@ module.exports = {
   output: {
     filename: 'all.js',
     path: path.resolve(__dirname, 'dist/js/'),
+    
   },
   mode: "production",
   module:{
