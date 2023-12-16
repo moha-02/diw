@@ -2,7 +2,7 @@ const { series, src, dest, parallel,watch } = require('gulp');
 const scss = require('gulp-sass')(require('sass'));
 const limpiarCSS = require('gulp-clean-css');
 const limpiarJS = require('gulp-uglify');
-const concat = require('gulp-concat');
+const minAssets = require('gulp-imagemin');
 
 
 
@@ -20,6 +20,10 @@ function minimizaCSS() {
 }
 
 function minimizaJS(){
+    return src('./js/*.js').pipe(limpiarJS()).pipe(dest('dist/js'));
+}
+
+function minimizaIMG(){
     return src('./js/*.js').pipe(limpiarJS()).pipe(dest('dist/js'));
 }
 

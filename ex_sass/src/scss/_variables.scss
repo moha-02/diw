@@ -1,0 +1,35 @@
+$success_color:#2ecc72;
+$warning_color : #f1c40f;
+$error_color: #e74c3c;
+$normal_color: black;
+
+.success{
+    color: $success_color;
+    background-color: darken($success_color,25%);
+}
+.warning{
+    color: $warning_color;
+    background-color: darken($warning_color,25%);
+}
+.error{
+    color: $error_color;
+    background-color: darken($error_color,25%);
+}
+
+p{
+    color: $normal_color;
+    text-align: justify;
+    background-color: lighten($normal_color,50%);
+}
+
+
+$font_size:2em;
+@for $i from 1 through 6{
+    
+    h#{$i}{
+        color: $normal_color;
+        font-size: $font_size;
+        background-color: lighten($normal_color,50%);
+    }
+    $font_size:$font_size - 0.2;
+}

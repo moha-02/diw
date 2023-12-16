@@ -1,0 +1,15 @@
+
+@mixin effectos ($effect,$val1,$val2){
+  @keyframes #{$effect}-effect {
+    0% {
+       filter: #{$effect}($val1);
+     }
+     
+    100% {
+       filter: #{$effect}($val2);
+     }
+   }
+   -webkit-animation: #{$effect}-effect 3s;
+   animation: #{$effect}-effect 3s;
+ }
+ 

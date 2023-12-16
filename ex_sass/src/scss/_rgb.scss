@@ -1,0 +1,27 @@
+
+@for $red from 0 through 10 {
+    $red:($red * 10);
+    @for $green from 0 through 10 {
+        $green:($green * 10);
+      @for $blue from 0 through 10 {
+        $blue:($blue * 10);
+
+        $red1: ($red * 1%);
+        $green1: ($green * 1%);
+        $blue1: ($blue * 1%);
+        
+
+        $class: "color-#{$red}-#{$green}-#{$blue}";
+        $class-bg: "colorbg-#{$red}-#{$green}-#{$blue}";
+        
+
+        .#{$class}{
+          color: rgb($red1, $green1,$blue1); 
+        }
+        .#{$class-bg} {
+          background-color: rgb($red1, $green1, $blue1); 
+        }
+      }
+    }
+}
+
