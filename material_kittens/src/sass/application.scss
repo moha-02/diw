@@ -1,0 +1,77 @@
+
+$page-width:     1200px;
+$kitten-width:   calc($page-width / 4);
+$border-width:  10px;
+$border-radius: 20px;
+$tan:       #eee4da;
+
+
+@use "@material/icon-button";
+@use "@material/top-app-bar/mdc-top-app-bar";
+
+@use "@material/tab-bar/mdc-tab-bar";
+@use "@material/tab-scroller/mdc-tab-scroller";
+@use "@material/tab-indicator/mdc-tab-indicator";
+@use "@material/tab/mdc-tab";
+
+
+
+@use "@material/image-list/mdc-image-list"; 
+@use "@material/image-list";
+@use "@material/layout-grid/mdc-layout-grid";
+
+@use "@material/card";
+@include card.core-styles;
+
+.my-card-content {
+  padding: 16px;
+}
+
+.my-card {
+  height: 350px;
+  width: 350px;
+}
+
+.my-image-list {
+  @include image-list.standard-columns(5);
+}
+.mdc-top-app-bar{
+  position: relative;
+}
+
+.search{
+  float: right;
+}
+.kittens {
+  overflow: auto;
+  list-style-type: none;
+  padding: 0;
+
+  li {
+    border-radius: $border-radius;
+    float: left;
+    margin-right: 3em;
+    margin-bottom: 2em;
+    text-align: center;
+    width: $kitten-width;
+
+  }
+
+  img {
+    border: $border-width solid white;
+    border-radius: $border-radius;
+  }
+
+  label { font-weight: bold; }
+}
+
+.background {
+  background: $tan;
+  margin: 0;
+  background-image: url("../img/background.png");
+}
+
+h1{
+  font-family: unquote("Robot");
+  font-size: 96;
+}
