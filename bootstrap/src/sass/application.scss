@@ -1,0 +1,50 @@
+.carousel{
+    margin-top: 20px;
+}
+.carousel-caption{
+    background-color: rgb(31, 9, 92);
+}
+
+.cards{
+    margin-top: 20px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.table{
+    text-align: left;
+}
+.btn_align{
+    float: right;
+    margin-right: 200px;
+}
+
+
+.pagination > li > a
+{
+    background-color: white;
+    color:rgb(68, 155, 255);
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: rgb(68, 155, 255);
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.pagination > .active > a
+{
+    color: white;
+    background-color: rgb(68, 155, 255);
+    border: solid 1px rgb(68, 155, 255);
+}
+
+.pagination > .active > a:hover
+{
+    background-color:rgb(68, 155, 255);
+    border: solid 1px rgb(68, 155, 255);
+}

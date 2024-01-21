@@ -39,7 +39,7 @@ $grays: (
 $blue:    #0d6efd !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
-$pink:    #d63384 !default;
+$pink:    #ff0c55 !default;
 $red:     #dc3545 !default;
 $orange:  #fd7e14 !default;
 $yellow:  #ffc107 !default;
@@ -298,14 +298,14 @@ $cyans: (
 // fusv-enable
 
 // scss-docs-start theme-color-variables
-$primary:       $blue !default;
-$secondary:     $gray-600 !default;
+$primary:       $red !default;
+$secondary:     $blue !default;
 $success:       $green !default;
-$info:          $cyan !default;
+$info:          $yellow !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
-$dark:          $gray-900 !default;
+$dark:          $gray-500 !default;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
@@ -1543,7 +1543,7 @@ $modal-scale-transform:             scale(1.02) !default;
 //
 // Define alert colors, border radius, and padding.
 
-// scss-docs-start alert-variables
+// scss-docs-start variables
 $alert-padding-y:               $spacer !default;
 $alert-padding-x:               $spacer !default;
 $alert-margin-bottom:           1rem !default;
