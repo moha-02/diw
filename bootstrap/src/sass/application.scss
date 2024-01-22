@@ -1,17 +1,24 @@
+$margin : 20px;
 .carousel{
-    margin-top: 20px;
+    margin-top: $margin;
 }
 .carousel-caption{
     background-color: rgb(31, 9, 92);
 }
-
-.cards{
-    margin-top: 20px;
-    float: left;
-    margin-bottom: 20px;
+.d-flex{
+    width: 380px;
+}
+.search{
+    display: flex;
 }
 
+#cols{
+    margin-top: $margin;
+}
+
+
 .table{
+    margin-top: $margin;
     text-align: left;
 }
 .btn_align{

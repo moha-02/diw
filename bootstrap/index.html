@@ -50,25 +50,27 @@
                 </li>
               </ul>
             </div>
-            <button type="button" class="btn btn-info position-relative">
-              Notificaciones
-              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                14+
-                <span class="visually-hidden">unread messages</span>
-              </span>
-            </button>
-            <div class="container-fluid">
-              <form class="d-flex">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button class="btn btn-success " type="submit">
-                  Buscar
-                </button>
-              </form>
+            <div class="search">
+              <button type="button" class="btn btn-info position-relative">
+                Notificaciones
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  14+
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              </button>
+              <div class="container-fluid">
+                <form class="d-flex">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Buscar"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-success " type="submit">
+                    Buscar
+                  </button>
+                </form>
+              </div>
             </div>
           </div>
         </nav>
@@ -113,35 +115,47 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      
-        <div class="card cards" style="width: 26rem;">
-          <img src="img/erasmus.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Prueba de nivel de ingles</h5>
-            <p class="card-text">Resultado de la prueba de nivel de ingles para seleccion de alumnos de Erasmus</p>
+      <div class="container" id="cols">
+        <div class="row align-items-start ">
+          <div class="col">
+            <div class="card cards">
+              <img src="img/erasmus.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Prueba de nivel de ingles</h5>
+                <p class="card-text">Resultado de la prueba de nivel de ingles para seleccion de alumnos de Erasmus</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card cards">
+              <img src="img/ciber.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Lista definitiva para el curso de especialización de Ciberseguirdad</h5>
+                <p class="card-text">Este año han quedado fuera varios alumnos debido a la demanda</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Mañanas</li>
+                <li class="list-group-item">Tardes</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card cards">
+              <img src="img/torrada.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Torrada San Sebastian</h5>
+                <p class="card-text">Todo el instituto vendara a divertirse</p>
+                <a href="#" class="btn btn-primary">Leer mas</a>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
         
-        <div class="card cards" style="width: 26rem; margin-left: 24px;">
-          <img src="img/ciber.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Lista definitiva para el curso de especialización de Ciberseguirdad</h5>
-            <p class="card-text">Este año han quedado fuera varios alumnos debido a la demanda</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Mañanas</li>
-            <li class="list-group-item">Tardes</li>
-          </ul>
-        </div>
+        
+        
 
-        <div class="card cards" style="width: 26rem; margin-left: 24px;">
-          <img src="img/torrada.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Torrada San Sebastian</h5>
-            <p class="card-text">Todo el instituto vendara a divertirse</p>
-            <a href="#" class="btn btn-primary">Leer mas</a>
-          </div>
-        </div>
+        
 
         <table class="table table-striped">
           <thead class="table-secondary table-danger">
